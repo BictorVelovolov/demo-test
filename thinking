@@ -1,0 +1,34 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+void stat_change(string &servnum){
+    if (servnum == "open")
+        servnum == "close";
+    else
+        servnum == "open";
+
+
+}
+
+
+int main(){
+      vector <string> serv;
+      string num;
+      int por, por2;
+    for (int i = 0; i < 4; i++){
+            cin >> num;
+            serv.push_back(num);
+      }
+      for(int i = 0; i < serv.size(); i++){
+         /* cin >> por;
+          cin >> por2;
+          if (por == por2)
+            stat_change(serv[i]);*/
+            cout << serv[i] << " ";
+      }
+
+return 0;
+}
